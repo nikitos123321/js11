@@ -7,7 +7,6 @@ dropdown.addEventListener('mouseover', function () {
 dropdown.addEventListener('mouseout', function () {
     drop.style.transform = 'translateY(-200px)';
     drop.style.transition = 'transform 0.3s ease-in-out'; 
-    setTimeout(function () {
         drop.style.display = 'none';
-    }, 300);
+
 });
